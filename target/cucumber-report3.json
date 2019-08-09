@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validade First Name field31",
+        "description": "",
+        "id": "create-account-of-facebook3;validade-first-name-field31",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7916326100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MyFirstStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166285000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MyFirstStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33476500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user first name is present",
+            "match": {
+              "location": "MyFirstStepDef.user_checks_user_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 811322000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close browser",
+            "match": {
+              "location": "MyFirstStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook3",
+    "description": "As a user I need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook3",
+    "keyword": "Feature",
+    "uri": "MyFirstFeature.feature"
+  }
+]

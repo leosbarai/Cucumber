@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Commom base steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11046059300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Validade First Name field11",
+        "description": "",
+        "id": "create-account-of-facebook1;validade-first-name-field11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165476700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51652100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User checks user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "MultipleScenarioStepDef.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Commom base steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4835290000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Validate create a user multiple fields12",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-create-a-user-multiple-fields12",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165411900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters user \"Ryan\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115680400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters user \"Jack\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jack",
+                  "offset": 18
+                }
+              ],
+              "location": "MultipleScenarioStepDef.user_enters_user_surname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38729500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User checks user \"Ryan\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "MultipleScenarioStepDef.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39719700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 912078100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close browser",
+            "match": {
+              "location": "MultipleScenarioStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook1",
+    "description": "As a user I need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook1",
+    "keyword": "Feature",
+    "uri": "BackgroundFF.feature"
+  }
+]

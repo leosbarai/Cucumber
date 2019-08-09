@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate create a user multiple fields21",
+        "description": "",
+        "id": "create-account-of-facebook2;validate-create-a-user-multiple-fields21",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11112291700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269756500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter following data",
+            "match": {
+              "location": "MultipleScenarioStepDef.Enter_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "UserSurName",
+                  "Mobile"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Hanks",
+                  "1234"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Jack",
+                  "Daniels",
+                  "5678"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 814607100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close browser",
+            "match": {
+              "location": "MultipleScenarioStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook2",
+    "description": "As a user I need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook2",
+    "keyword": "Feature",
+    "uri": "DataTableFF.feature"
+  }
+]

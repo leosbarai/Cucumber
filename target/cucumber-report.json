@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validade First Name field",
+        "description": "",
+        "id": "create-account-of-facebook;validade-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6243446800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063323400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33184300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user first name is present",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_checks_user_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2226872500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close browser",
+            "match": {
+              "location": "MultipleScenarioStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Validate create a user multiple fields",
+        "description": "",
+        "id": "create-account-of-facebook;validate-create-a-user-multiple-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109750400,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027DESKTOP-PUPRTE5\u0027, ip: \u0027192.168.25.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:60571}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir\u003dC:\\Users\\Leonardo\\AppData\\Local\\Temp\\scoped_dir12356_12284}, takesHeapSnapshot\u003dtrue, unhandledPromptBehavior\u003dignore, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d74.0.3729.169, browserConnectionEnabled\u003dfalse, proxy\u003dProxy(), nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 37cf31541b3389306feeaac8d1bf8aac\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)\r\n\tat com.basic.multiplescenarioSD.MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page(MultipleScenarioStepDef.java:32)\r\n\tat ✽.Given User need to be on Facebook login page(MultipleScenarioFF.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters user surname",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_surname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User checks user first name is present",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_checks_user_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook",
+    "description": "As a user I need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "MultipleScenarioFF.feature"
+  }
+]
